@@ -19,7 +19,7 @@ def show_session(key):
         },
         'cookies': [{cookie: request.cookies[cookie]}
             for cookie in request.cookies],
-    }), 200)
+    }), 200
 
     response.set_cookie('mouse', 'Cookie')
 
